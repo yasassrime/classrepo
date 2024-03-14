@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v5  # Updated
+    - uses: actions/checkout@v4  # Updated
     - name: Set up Python 3.10
       uses: actions/setup-python@v5  # Updated
       with:
